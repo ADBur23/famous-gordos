@@ -1,3 +1,7 @@
+body {
+  background-image: url(../Images/gordosBackgroundCorrect.png);
+}
+
 .permanent-marker-regular {
   font-family: "Permanent Marker", cursive;
   font-weight: 400;
@@ -76,9 +80,7 @@ svg {
   color: yellow;
 }
 
-body {
-  background-image: url(../Images/gordosBackgroundCorrect.png);
-}
+
 
 .header {
   background-color: whitesmoke;
