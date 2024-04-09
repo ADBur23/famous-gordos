@@ -1,0 +1,40 @@
+svg {
+  color: yellow;
+}
+
+body {
+  background-image: url(/Images/gordosBackgroundCorrect.png);
+}
+
+.almarai-bold {
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+}
+
+header a:link {
+  color: black;
+}
+
+header a:visited {
+  color: black;
+}
+
+header a:hover {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.header {
+  background-color: whitesmoke;
+  opacity: 60%;
+  width: 500px;
+}
+
+.header1 {
+  display: flex;
+  justify-content: center;
+}

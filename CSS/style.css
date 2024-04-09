@@ -1,0 +1,138 @@
+body {
+  background-color: black;
+}
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.almarai-bold {
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+}
+
+.polaroid {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
+  /* margin: 20px; */
+}
+
+/* .card-body {
+    height: 50px;
+} */
+
+/* .image {
+    height: 200px;
+    width: 200px;
+} */
+
+.polaroid1 {
+  margin: 20px;
+  border-color: black;
+  border-width: 0cap;
+  display: flex;
+  justify-content: center;
+}
+
+.whiteText {
+  color: whitesmoke;
+}
+
+.polaroid a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.polaroid a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.polaroid a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.pizzaBoy {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  margin-left: 20px;
+}
+
+svg {
+  color: yellow;
+}
+
+body {
+  background-image: url(/Images/gordosBackgroundCorrect.png);
+}
+
+.header {
+  background-color: whitesmoke;
+  opacity: 60%;
+  width: 500px;
+}
+
+header a:link {
+  color: black;
+}
+
+header a:visited {
+  color: black;
+}
+
+header a:hover {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.hero {
+  background-color: rgba(245, 245, 245, 0.603);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lead {
+  opacity: 100%;
+}
+
+.header1 {
+  display: flex;
+  justify-content: center;
+}
+
+.gordosWhiteLogo {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.polaroidText {
+  display: flex;
+  justify-content: center;
+}
+
+/* .css-ekq38o {
+  color: darkkhaki;
+} */
