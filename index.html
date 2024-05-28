@@ -29,12 +29,13 @@
       rel="stylesheet"
     />
   </head>
-  <body onload="myFunction()" style="margin:0;">
+  <body onload="myFunction()" style="margin: 0">
+
     <!-- Header -->
     <div class="container header1">
       <header class="d-flex justify-content-center py-3 header">
         <ul class="nav nav-pills navColor">
-          <li class="nav-item">
+          <li class="nav-item navText">
             <a href="#" class="nav-link almarai-bold" aria-current="page"
               >HOME</a
             >
@@ -46,28 +47,72 @@
             <a href="./booking.html" class="nav-link almarai-bold">BOOKING</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link almarai-bold">FAQs</a>
+            <a href="./faq.html" class="nav-link almarai-bold">FAQs</a>
           </li>
           <li class="nav-item">
             <a href="./gallery.html" class="nav-link almarai-bold">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a href="./socials.html" class="nav-link almarai-bold">SOCIALS</a>
           </li>
         </ul>
       </header>
     </div>
 
+    <!-- Small Screen Header -->
+    <div class="container headerMobile">
+      <div class="dropdown">
+        <button
+          class="btn lil-Btn dropdown-toggle almarai-bold"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Click me, Sexy
+        </button>
+        <ul class="dropdown-menu navText">
+          <li><button class="dropdown-item almarai-bold" type="button"><a href="./index.html">HOME</a></button></li>
+          <li><button class="dropdown-item almarai-bold" type="button" ><a href="./history.html">HISTORY</a></button></li>
+          <li><button class="dropdown-item almarai-bold" type="button"><a href="./booking.html">BOOKING</a></button></li>
+          <li><button class="dropdown-item almarai-bold" type="button"><a href="./faq.html">FAQ</a></button></li>
+          <li><button class="dropdown-item almarai-bold" type="button"><a href="./socials.html">SOCIALS</a></button></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Title for Mobile -->
+    <div class="container col-xxl-8 px-4 py-3">
+      <div class="col-lg-6 hero" id="gordosIDmobile">
+        <h1
+          class="display-5 fw-bold text-body-emphasis lh-1 mb-3 pt-3 almarai-bold headline"
+        >
+          WORLD FAMOUS GORDOS PIZZA
+        </h1>
+        <img src="./Images/gordosWhiteLogo.jpg" alt="" class="gordosWhiteLogo" />
+        <p class="lead almarai-bold">
+          Slinging pies like they are lies. New York style slices from the heart
+          of Nettle Market, to your heart and arteries.
+        </p>
+        <p class="lead almarai-bold">
+          Make our place your third place. The only place to be for those summer
+          time vibes.
+        </p>
+      </div>
+    </div>
+
     <!-- Hero -->
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="container col-xxl-8 px-4 py-3">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
         <div class="col-10 col-sm-10 col-lg-6 video">
-          <video width="500" height="500" autoplay muted loop>
+          <video width="500" height="530" autoplay muted loop>
             <source src="./video/VID-20240408-WA0149_1.mp4" type="video/mp4" />
 
             Your browser does not support the video tag.
           </video>
         </div>
-        <div class="col-lg-6 hero">
+        <div class="col-lg-6 hero" id="gordosID">
           <h1
-            class="display-5 fw-bold text-body-emphasis lh-1 mb-3 pt-3 almarai-bold headline"
+            class="display-5 fw-bold text-body-emphasis lh-1 mb-1 pt-3 almarai-bold headline"
           >
             WORLD FAMOUS GORDOS PIZZA
           </h1>
@@ -88,9 +133,9 @@
       </div>
     </div>
 
-    <!-- Poloroid -->
+    <!-- Polaroid -->
     <div class="container polaroid">
-      <div class="card polaroid1" style="width: 18rem">
+      <div class="card polaroid1">
         <img
           src="./Images/history.jpg"
           class="card-img-top pizzaBoy"
@@ -99,11 +144,11 @@
         />
         <div class="card-body">
           <a href="./history.html">
-            <p class="card-text almarai-bold polaroidText">HISTORY</p>
+            <h2 class="card-text almarai-bold polaroidText">HISTORY</h2>
           </a>
         </div>
       </div>
-      <div class="card polaroid1" style="width: 18rem">
+      <div class="card polaroid1">
         <img
           src="./Images/booking.jpg"
           class="card-img-top pizzaBoy"
@@ -111,11 +156,11 @@
         />
         <div class="card-body">
           <a href="./booking.html">
-            <p class="card-text almarai-bold polaroidText">BOOKING DEETS</p>
+            <h2 class="card-text almarai-bold polaroidText">BOOKING</h2>
           </a>
         </div>
       </div>
-      <div class="card polaroid1" style="width: 18rem">
+      <div class="card polaroid1">
         <img
           src="./Images/gallery.jpg"
           class="card-img-top pizzaBoy"
@@ -123,7 +168,31 @@
         />
         <div class="card-body">
           <a href="./gallery.html">
-            <p class="card-text almarai-bold polaroidText">GALLERY</p>
+            <h2 class="card-text almarai-bold polaroidText">GALLERY</h2>
+          </a>
+        </div>
+      </div>
+      <div class="card polaroid1" style="width: 18rem">
+        <img
+          src="./Images/gordosBlack.png"
+          class="card-img-top pizzaBoy"
+          alt="..."
+        />
+        <div class="card-body">
+          <a href="./faq.html">
+            <h2 class="card-text almarai-bold polaroidText">FAQ</h2>
+          </a>
+        </div>
+      </div>
+      <div class="card polaroid1" style="width: 18rem">
+        <img
+          src="./Images/socials.jpg"
+          class="card-img-top pizzaBoy"
+          alt="..."
+        />
+        <div class="card-body">
+          <a href="./socials.html">
+            <h2 class="card-text almarai-bold polaroidText">SOCIALS</h2>
           </a>
         </div>
       </div>
@@ -132,22 +201,20 @@
     <div id="loader"></div>
     <!-- Tik Tok display -->
     <div class="container" id="tiktok">
-      
       <blockquote
-      class="tiktok-embed"      
-      cite="https://www.tiktok.com/@worldfamousgordos"
-      data-unique-id="worldfamousgordos"
-      data-embed-type="creator"
-      style="max-width: 780px; min-width: 288px"
-    >
-      
-      <section>
-        <a
-          target="_blank"
-          href="https://www.tiktok.com/@worldfamousgordos?refer=creator_embed"
-          >@worldfamousgordos</a
-        >
-      </section>
+        class="tiktok-embed"
+        cite="https://www.tiktok.com/@worldfamousgordos"
+        data-unique-id="worldfamousgordos"
+        data-embed-type="creator"
+        style="max-width: 780px; min-width: 288px"
+      >
+        <section>
+          <a
+            target="_blank"
+            href="https://www.tiktok.com/@worldfamousgordos?refer=creator_embed"
+            >@worldfamousgordos</a
+          >
+        </section>
       </blockquote>
     </div>
     <script async src="https://www.tiktok.com/embed.js"></script>
