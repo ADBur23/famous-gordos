@@ -14,11 +14,63 @@ body {
   justify-content: center;
 }
 
+.lil-Btn {
+  background-color: rgba(103, 116, 119, 0.603) !important;
+  color: antiquewhite !important;
+}
+
+.dropdown-menu {
+  --bs-dropdown-bg: rgba(103, 116, 119, 1) !important;
+}
+
+.headerMobile a:link {
+  color: antiquewhite !important;
+}
+
+.headerMobile a:visited {
+  color: antiquewhite;
+}
+
+.headerMobile a:hover {
+  color: orange !important;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.header {
+  background-color: rgba(103, 116, 119, 0.603);
+  /* opacity: 60%; */
+  width: 600px;
+}
+
+.navText {
+  color: antiquewhite;
+}
+
 header a:link {
-  color: black;
+  color: antiquewhite;
 }
 
 header a:visited {
+  color: antiquewhite;
+}
+
+header a:hover {
+  color: orange !important;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.header1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* header a:link {
+  color: black;
+} */
+
+/* header a:visited {
   color: black;
 }
 
@@ -26,9 +78,9 @@ header a:hover {
     color: orange;
     background-color: transparent;
     text-decoration: underline;
-}
+} */
 
-.header {
+/* .header {
   background-color: whitesmoke;
   opacity: 60%;
   width: 500px;
@@ -37,7 +89,7 @@ header a:hover {
 .header1 {
   display: flex;
   justify-content: center;
-}
+} */
 
 .hero {
   background-color: rgba(245, 245, 245, 0.603);
@@ -48,4 +100,60 @@ header a:hover {
 
 .galleryPics {
   background-color: rgba(245, 245, 245, 0) !important;
+}
+
+.whiteText {
+  color: antiquewhite;
+}
+
+@media (max-width: 1000px) {
+
+  .header {
+    width: 300px;
+  }
+
+  .headerMobile {
+    display: flex;
+  }
+
+  .header1 {
+    display: none;
+  }
+
+}
+
+@media (min-width: 600px) {
+  .header {
+    width: 600px;
+  }
+
+  .headerMobile {
+    display: none;
+  }
+
+  .header1 {
+    display: flex;
+  }
+
+  .padding {
+    padding-left: 9.375rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .px-4 {
+    padding-right: 1rem !important;
+    padding-left: 0.4rem !important;
+}
+
+/* .padding {
+  padding-right: 1rem !important;
+    padding-left: 0.4rem !important;
+} */
+}
+
+@media (min-width: 1000px) {
+  .padding {
+    padding-left: 0;
+  }
 }
