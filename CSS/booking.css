@@ -187,6 +187,10 @@ header a:hover {
   
 }
 
+.whiteText {
+  color: antiquewhite;
+}
+
 @media (max-width: 1000px) {
   .headline {
     padding-left: 3rem;
