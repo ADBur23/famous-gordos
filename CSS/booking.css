@@ -34,12 +34,14 @@ body {
 }
 
 .lil-Btn {
-  background-color: rgba(103, 116, 119, 0.603) !important;
+  background-color:  rgba(245, 4, 40, 0.634) !important;
   color: antiquewhite !important;
+  border-color: rgba(7, 164, 33, 0.668) !important;
+  border-width: 5px;
 }
 
 .dropdown-menu {
-  --bs-dropdown-bg: rgba(103, 116, 119, 1) !important;
+  --bs-dropdown-bg:  rgb(245, 4, 40)!important;
 }
 
 .headerMobile a:link {
@@ -57,9 +59,9 @@ body {
 }
 
 .lil-Btn2 {
-  background-color: rgba(245, 4, 40, 0.507) !important;
+  background-color: rgba(230, 43, 43, 0.788) !important;
   color: antiquewhite !important;
-  border-color: yellow;
+  border-color: rgb(7, 164, 33);
   border-width: 5px;
   --bs-btn-hover-border-color: none
 
